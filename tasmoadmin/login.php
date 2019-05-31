@@ -86,7 +86,7 @@
 										       name="username"
 										       id="username"
 										       placeholder='<?php echo __( "LOGIN_USERNAME_PLACEHOLDER", "LOGIN" ); ?>'
-										       required="">
+										       required="" autofocus>
 
 
 									</div>
@@ -134,4 +134,3 @@
 
 
 <?php include_once( _INCLUDESDIR_."footer.php" ); //always load header?>
-
